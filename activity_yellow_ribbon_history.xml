@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.larsnik2.yellowribbonapp.YellowRibbonHistory"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="341dp"
+            android:layout_height="236dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/background_light"
+            android:onClick="sendHome"
+            android:scaleType="fitXY"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_yellowribbonlogo" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="The Yellow Ribbon program was founded in 1994 by the parents and friends of a bright, funny, loving teen, Mike Emme, who took his life when he did not know the words to say, or how to let someone know he was in trouble and needed help.    "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="“Don’t blame yourselves, Mom and Dad, I love you.” It was signed, “Love, Mike 11:45 pm”. In a move that totally stunned all who knew him, Mike died by suicide at the time of his deepest despair. At 11:52 pm his parents pulled into the driveway behind that bright yellow Mustang, – seven minutes too late! "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="The legacy started when Mike rescued a 1968 Ford Mustang from a field where it sat neglected. He bought it, rebuilt it (as he had others) and painted it bright yellow. As Mike, with his mustangs, became more and more known for his mechanical ability and for helping other teens and friends – he became known as “Mustang Mike”. "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Streams of stories began emerging of the help Mike had given to people. A young mother’s car had broken down late one night, leaving her and her two small children stranded on the side of the road. Mike stopped and showed her his driver’s license to assure her he would not harm them, got her car started, then accompanied them home to ensure they arrived safely. "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+        <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="A classmate told of how Mike had canceled his order for a new transmission and bought two used ones from the salvage yard instead so that his classmate could get his car running too.   As the teens gathered to comfort the family, and each other, they discussed the tragedy of losing Mike. Mike’s mom talked with the teens about creating mementos that others could have to remember him with, and they decided that yellow would be used in honor of the cherished yellow mustang. In response to teens asking what can we do?, – she told them, ‘don’t do this, don’t attempt suicide’. ‘If you are ever at this point of pain/despair, please ask for help’! Kids took notes, and cards were made with the message to reach out for help, that It’s OK to Ask4Help! "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="The night before Mike’s memorial services, his friends shared their grief and tears as they pinned 500 ribbons on the cards. They were placed in a basket at his services. At the end of the services, all the ribbon cards were gone, and it could have ended then, but it did not, thanks to teens with the courage to make a difference and a family who cares about helping others. "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="Three weeks after Mike’s services – just three weeks! – a call came from a teacher in Wyoming who had a student give her one of those messages of when she needed help. The girl had received in the mail from a friend. The teacher called because she wanted to get help for teens in her area. Other calls began to come in from throughout the U.S., then letters began to flood in – teens were sending those messages/cards everywhere to ‘and The Ripple Effect had begun! "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="The ribbon became the symbol of the program when the teens began tying them in their hair and pinning them to their clothes and hats on the day Mike died. Yellow in memory of Mike and his cherished ’68 Yellow Mustang, and how he helped so many people.  The HEART in the middle of the ribbon is the symbol of the survivors. Our hearts go on, forever broken, but nurtured and surrounded by the Yellow Ribbon family to help others, to save lives and to work in memory of our loved ones. Our voices will speak for those who cannot. "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="341dp"
+            android:layout_height="350dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/background_light"
+            android:onClick="sendHistory"
+            android:scaleType="fitXY"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_rosepetals" />
+
+
+</LinearLayout>
+</ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
+
